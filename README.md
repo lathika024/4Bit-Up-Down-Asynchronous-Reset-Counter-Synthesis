@@ -57,15 +57,23 @@ The Liberty files are present in the library path,
 
 Synthesis RTL Schematic :
 4 exp
+![WhatsApp Image 2024-11-14 at 14 21 40_0fd0d85c](https://github.com/user-attachments/assets/51a8b520-b981-46cc-8bad-652006f4c3b2)
+
 
 Area report:
 exp part 2
+![WhatsApp Image 2024-11-14 at 14 21 53_9159fea9](https://github.com/user-attachments/assets/d65de4cb-1649-4774-a7b0-e2b89156a23f)
+
 
 Power Report:
 exp part 3
+![WhatsApp Image 2024-11-14 at 14 22 14_462dc2b8](https://github.com/user-attachments/assets/fa6aad81-3c1f-4b29-a7b0-5eaf1a2a5deb)
+
 
 Timing Report:
 exp part 4
+![WhatsApp Image 2024-11-14 at 14 22 26_a16b9a98](https://github.com/user-attachments/assets/25ba451d-25e6-4c2c-b58f-d23d11b762ab)
+
 
 Result:
 The generic netlist has been created, and area, power, and timing reports have been tabulated and generated using Genus.
