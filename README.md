@@ -1,17 +1,12 @@
-# 4Bit-Up-Down-Asynchronous-Reset-Counter-Synthesis
-
-## Aim:
-
+Aim:
 Synthesize 4Bit-Up-Down-Asynchronous-Reset-Counter design using Constraints and analyse reports, Timing, area and Power.
 
-## Tool Required:
-
+Tool Required:
 Functional Simulation: Incisive Simulator (ncvlog, ncelab, ncsim)
 
 Synthesis: Genus
 
-### Step 1: Getting Started
-
+Step 1: Getting Started
 Synthesis requires three files as follows,
 
 ◦ Liberty Files (.lib)
@@ -20,11 +15,10 @@ Synthesis requires three files as follows,
 
 ◦ SDC (Synopsis Design Constraint) File (.sdc)
 
- ### Step 2 : Creating an SDC File
+Step 2 : Creating an SDC File
+• In your terminal type “gedit input_constraints.sdc” to create an SDC File if you do not have one.
 
-•	In your terminal type “gedit input_constraints.sdc” to create an SDC File if you do not have one.
-
-•	The SDC File must contain the following commands;
+• The SDC File must contain the following commands;
 
 create_clock -name clk -period 2 -waveform {0 1} [get_ports "clk"]
 
@@ -46,14 +40,12 @@ iv → Sets Clock Uncertainty to 10ps.
 
 v, vi → Sets the maximum limit for I/O port delay to 1ps.
 
-### Step 3 : Performing Synthesis
-
+Step 3 : Performing Synthesis
 The Liberty files are present in the library path,
 
 • The Available technology nodes are 180nm ,90nm and 45nm.
 
-• In the terminal, initialise the tools with the following commands if a new terminal is being
-used.
+• In the terminal, initialise the tools with the following commands if a new terminal is being used.
 
 ◦ csh
 
@@ -63,19 +55,17 @@ used.
 
 • Genus Script file with .tcl file Extension commands are executed one by one to synthesize the netlist.
 
-#### Synthesis RTL Schematic :
+Synthesis RTL Schematic :
+4 exp
 
-#### Area report:
+Area report:
+exp part 2
 
-#### Power Report:
+Power Report:
+exp part 3
 
-#### Timing Report: 
+Timing Report:
+exp part 4
 
-#### Result: 
-
+Result:
 The generic netlist has been created, and area, power, and timing reports have been tabulated and generated using Genus.
-
-
-
-
-
